@@ -1,34 +1,17 @@
 package com.tomodev.bookmakerapi.domain;
 
-import com.fasterxml.jackson.annotation.JsonProperty;
-import lombok.Getter;
-import lombok.Setter;
-import org.springframework.data.domain.Page;
+import lombok.AllArgsConstructor;
+import lombok.Data;
+import lombok.NoArgsConstructor;
 
-import java.util.List;
+import java.time.Instant;
 
-@Getter
-@Setter
+@Data
+@AllArgsConstructor
+@NoArgsConstructor
 public class BookmarkDTO {
-    private List<Bookmark> data;
-    private long totalElements;
-    private int totalPages;
-    private int currentPage;
-    @JsonProperty("isFirst")
-    private boolean isFirst;
-    @JsonProperty("isLast")
-    private boolean isLast;
-    private boolean hasPrevious;
-    private boolean hasNext;
-
-    public BookmarkDTO(Page<Bookmark> bookmarkPage) {
-        this.setData(bookmarkPage.getContent());
-        this.setTotalElements(bookmarkPage.getTotalElements());
-        this.setTotalPages(bookmarkPage.getTotalPages());
-        this.setCurrentPage(bookmarkPage.getNumber() + 1);
-        this.setFirst(bookmarkPage.isFirst());
-        this.setLast(bookmarkPage.isLast());
-        this.setHasPrevious(bookmarkPage.hasPrevious());
-        this.setHasNext(bookmarkPage.hasNext());
-    }
+    private Long id;
+    private String title;
+    private String url;
+    private Instant createdAt;
 }
