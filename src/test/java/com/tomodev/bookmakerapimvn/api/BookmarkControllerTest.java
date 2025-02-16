@@ -1,7 +1,7 @@
-package com.tomodev.bookmakerapi.api;
+package com.tomodev.bookmakerapimvn.api;
 
-import com.tomodev.bookmakerapi.domain.Bookmark;
-import com.tomodev.bookmakerapi.domain.BookmarkRepository;
+import com.tomodev.bookmakerapimvn.domain.Bookmark;
+import com.tomodev.bookmakerapimvn.domain.BookmarkRepository;
 import org.hamcrest.CoreMatchers;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.params.ParameterizedTest;

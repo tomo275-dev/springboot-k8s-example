@@ -1,4 +1,4 @@
-package com.tomodev.bookmakerapi.domain;
+package com.tomodev.bookmakerapimvn.domain;
 
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Page;

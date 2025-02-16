@@ -1,4 +1,4 @@
-package com.tomodev.bookmakerapi.domain;
+package com.tomodev.bookmakerapimvn.domain;
 
 import org.springframework.stereotype.Component;
 

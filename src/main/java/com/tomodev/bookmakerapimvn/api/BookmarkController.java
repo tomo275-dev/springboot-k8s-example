@@ -1,7 +1,7 @@
-package com.tomodev.bookmakerapi.api;
+package com.tomodev.bookmakerapimvn.api;
 
-import com.tomodev.bookmakerapi.domain.BookmarksDTO;
-import com.tomodev.bookmakerapi.domain.BookmarkService;
+import com.tomodev.bookmakerapimvn.domain.BookmarksDTO;
+import com.tomodev.bookmakerapimvn.domain.BookmarkService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

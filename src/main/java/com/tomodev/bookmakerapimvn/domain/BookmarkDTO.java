@@ -1,4 +1,4 @@
-package com.tomodev.bookmakerapi.domain;
+package com.tomodev.bookmakerapimvn.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

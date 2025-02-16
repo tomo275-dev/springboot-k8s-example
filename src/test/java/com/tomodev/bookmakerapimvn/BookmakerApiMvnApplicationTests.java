@@ -1,8 +1,7 @@
-package com.tomodev.bookmakerapi;
+package com.tomodev.bookmakerapimvn;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.context.annotation.Import;
 
 @SpringBootTest
 class BookmakerApiMvnApplicationTests {
